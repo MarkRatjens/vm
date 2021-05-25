@@ -5,15 +5,21 @@
 	},
   "bindings": [
     {
+      "identifier": "runtime",
+      "target": {
+        "repository": "https://github.com/v2Blueprints/lxd.git"
+      }
+    },
+    {
       "identifier": "dns",
       "target": {
         "repository": "https://github.com/v2Blueprints/powerdns.git"
       }
     },
     {
-      "identifier": "containing",
+      "identifier": "packing",
       "target": {
-        "repository": "https://github.com/v2Blueprints/lxd.git"
+        "repository": "https://github.com/v2Blueprints/packer.git"
       }
     }
   ]
