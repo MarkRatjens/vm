@@ -1,26 +1,27 @@
 {
+  "identifier": "lxd_arena",
   "about": {
-    "title": "Engines Arena",
+    "title": "Engines Arena FLOOZLE!",
     "explanation": "Original blueprint for bootstrapping a Spaces arena"
-	},
+  },
   "bindings": [
     {
-      "identifier": "runtime",
       "target": {
         "repository": "https://github.com/v2Blueprints/lxd.git"
-      }
+      },
+      "identifier": "runtime"
     },
     {
-      "identifier": "dns",
       "target": {
         "repository": "https://github.com/v2Blueprints/powerdns.git"
-      }
+      },
+      "identifier": "dns"
     },
     {
-      "identifier": "packing",
       "target": {
         "repository": "https://github.com/v2Blueprints/packer.git"
-      }
+      },
+      "identifier": "packing"
     }
   ]
 }
