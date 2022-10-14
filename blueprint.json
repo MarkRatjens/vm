@@ -1,27 +1,27 @@
 {
-  "identifier": "lxd_arena",
+  "identifier": "vm",
   "about": {
-    "title": "Engines Arena FLOOZLE!",
-    "explanation": "Original blueprint for bootstrapping a Spaces arena"
+    "title": "A virtual machine perhaps?",
+    "explanation": "A test to seem what happens if we try to embed a bunch of apps in a single image"
   },
   "bindings": [
     {
       "target": {
-        "repository": "https://github.com/v2Blueprints/lxd.git"
-      },
-      "identifier": "runtime"
+        "type": "embed",
+        "repository": "https://github.com/v2Blueprints/phpmyadmin.git"
+      }
     },
     {
       "target": {
-        "repository": "https://github.com/v2Blueprints/powerdns.git"
-      },
-      "identifier": "dns"
+        "type": "embed",
+        "repository": "https://github.com/v2Blueprints/mariadb.git"
+      }
     },
     {
       "target": {
-        "repository": "https://github.com/v2Blueprints/packer.git"
-      },
-      "identifier": "packing"
+        "type": "embed",
+        "repository": "https://github.com/v2Blueprints/wap.git"
+      }
     }
   ]
 }
