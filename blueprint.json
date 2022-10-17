@@ -14,13 +14,7 @@
     {
       "target": {
         "type": "embed",
-        "repository": "https://github.com/v2Blueprints/mariadb.git"
-      }
-    },
-    {
-      "target": {
-        "type": "embed",
-        "repository": "https://github.com/v2Blueprints/wap.git"
+        "repository": "https://github.com/v2Blueprints/redmine.git"
       }
     }
   ]
